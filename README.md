@@ -1,8 +1,7 @@
 # Projeto-final-VHDL
 Jogo da toupeira em VHDL para placa FPGA 
 
-Todos os arquivos estão com a letra 'A' no inicio pra eles ficarem em primeiro na lista de arquivos.
-
+Todos os arquivos estão com a letra 'A'  no inicio do nome pra ficarem agrupados.
 O arquivo main é o ''Atoupeira''.
 
 - O estado inicial é Start que emite um sinal de reset e logo em seguida passa para o estado de Setup.
