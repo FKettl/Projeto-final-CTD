@@ -1,15 +1,16 @@
 # Projeto-final-VHDL
-Jogo da toupeira em VHDL
+Jogo da toupeira em VHDL para placa FPGA 
 
 Todos os arquivos estão com a letra 'A' no inicio pra eles ficarem em primeiro na lista de arquivos.
 
 O arquivo main é o ''Atoupeira''.
 
-- Key 0 é o reset.
 - O estado inicial é Start que emite um sinal de reset e logo em seguida passa para o estado de Setup.
 - No Setup há o nível de dificuldade (altera a velocidade em que as toupeiras aparecem), letra L no hex 2, e a sequência de toupeiras, letra J.
-- Key 1 alterna entre L e J, key 2 incrementa 1 e Key 3 começa o jogo. 
+- Key 0 é o reset, Key 1 alterna entre L e J, key 2 incrementa 1 e Key 3 começa o jogo. 
 - Serão 4 rounds com 8 toupeiras cada round. Cada toupeira vale 1 ponto vezes o número do round (1 ponto no primeiro, 2 no segundo , 3 no terceiro e 4 no último).
+- As toupeiras aparecem como leds acessos e usa-se os switch para ''acertar'' a toupeira.
+- Durante o jogo é mostrada a pontuação nos hex 1 e 0 e a letra P no hex 2. 
 - A pontuação está em hexadecimal.
 - Após o final de cada round aparece no hex a pontuação atual e o round anterior (0 à 3) (alternadamente).
 - Key 3 para ir ao próximo round.
