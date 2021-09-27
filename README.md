@@ -1,4 +1,5 @@
-# Projeto-final-VHDL
+# Projeto-final-CTD
+
 Jogo da toupeira em VHDL para placa FPGA 
 
 Todos os arquivos estão com a letra 'A'  no inicio do nome pra ficarem agrupados.
