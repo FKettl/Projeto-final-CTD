@@ -4,6 +4,7 @@ Jogo da toupeira em VHDL para placa FPGA
 Todos os arquivos estão com a letra 'A'  no inicio do nome pra ficarem agrupados.
 O arquivo main é o ''Atoupeira''.
 
+- É necessário fazer um map de entradas e saídas. 
 - Utiliza clock de 500hz. 
 - O estado inicial é Start que emite um sinal de reset e logo em seguida passa para o estado de Setup.
 - No Setup há o nível de dificuldade (altera a velocidade em que as toupeiras aparecem), letra L no hex 2, e a sequência de toupeiras, letra J.
